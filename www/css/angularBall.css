@@ -1,0 +1,29 @@
+body {
+    -webkit-touch-callout: none;   
+    -webkit-text-size-adjust: none; 
+    -webkit-user-select: none; 
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+#app {
+    position:absolute;             /* position in the center of the screen */
+    height:100%;                   /* text area height */
+    width:100%;                   /* text area width */
+    text-align:center;
+	background-image:url("../img/background.png");
+	background-size:100% 100%;
+}
+
+#ball { 
+	transition:all .25s ease;
+	position: relative;
+	width : 50px;
+	height : 50px;
+}
